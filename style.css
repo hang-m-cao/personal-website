@@ -118,7 +118,7 @@ h2 {
 
 /* When you mouse over the navigation links, change their color */
 .nav-item a:hover {
-  color: #53a3ff;
+  color: rgb(171 254 255);
 }
 
 /* The container for the Linked-In and Github links */
@@ -188,5 +188,5 @@ h2 {
 
 /* Sets the gradient background color for the home page */
 .home-background {
-  background-image: linear-gradient(to top,#6830cf, #534ad6, #4f8deb, #3cacec);
+  background-image: linear-gradient(to top, #6830cf, #534ad6, #4f8deb, #3cacec);
 }
