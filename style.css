@@ -188,5 +188,5 @@ h2 {
 
 /* Sets the gradient background color for the home page */
 .home-background {
-  background-image: linear-gradient(to right top,#6830cf, #534ad6, #4f8deb, #3cacec);
+  background-image: linear-gradient(to top,#6830cf, #534ad6, #4f8deb, #3cacec);
 }
