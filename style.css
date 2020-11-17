@@ -118,7 +118,7 @@ h2 {
 
 /* When you mouse over the navigation links, change their color */
 .nav-item a:hover {
-  color: #96fdff;
+  color: #a575ff;
 }
 
 /* The container for the Linked-In and Github links */
@@ -179,15 +179,15 @@ h2 {
 /* The background color of the webpage sections */
 /* nth of type (even) or (odd) means every other element is applied this style, so we can alternate background colors */
 .section-background:nth-of-type(even) {
-  background-image: linear-gradient(rgb(122 186 198), #3794b3);
+  background-image: linear-gradient(#6830cf, #3cacec);
 }
 
 .section-background:nth-of-type(odd) {
-  background-image: linear-gradient(#3395b6, #3790b3, rgb(122 186 198));
+  background-image: linear-gradient(#3cacec, #6830cf);
 }
 
 /* Sets the gradient background color for the home page */
 .home-background {
   background-image: linear-gradient(to right top,
-  #4c0999, #6830cf, #534ad6, #4f8deb, #3cacec);
+  #6830cf, #534ad6, #4f8deb, #3cacec);
 }
