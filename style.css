@@ -4,29 +4,164 @@
 
 html, body {
   height: 100%;
-  /* A smooth scroll behavior slides the page down to the next section on nav link click */
   scroll-behavior: smooth;
+  font-family: 'Raleway', 
+  sans-serif;
 }
 
 body {
   margin: 0;
-  font-family: "Lato";
+  font-family: 'Raleway', 
+  sans-serif;
 }
 
+a {
+  color: #10002B;
+}
+/* icon styling */
 .header-contact-info {
-  /* Spaces the contact icons and text out along the top of the page */
   display: flex;
-  justify-content: flex-end;
-  /* Adds space above the contact icons and text so they don't hit the top of the page */
   padding-top: 20px;
-  color: #eee8e8;
-  font-family: "Poppins";
   margin-left: 107px;
-  margin-right: 107px
+  margin-right: 107px;
+  font-size: 2rem;
+  justify-content: flex-end;
+}
+
+.fa {
+  font-size: 1.5rem !important;
+  padding: 0.7rem;
+  text-align: center;
+  text-decoration: none;
+  color: #10002B;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: #10002B;
+}
+
+/* navigation bar */
+.nav-container {
+  position: fixed;
+  height: 100%;
+}
+
+.nav-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  background-color: #B185DB;
+  overflow-x: hidden;
+  padding-top: 106px;
+}
+
+.sidenav a {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Raleway";
+}
+
+.nav-item a:hover {
+  color: #10002B;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+/* profile image styling */
+img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  border: 10px solid #10002B;
+}
+
+h2 {
+  font-family: "Raleway";
+  color: #10002B;
+}
+
+.heading-font {
+  color: #10002B;
+  font-family: "Raleway";
+  font-size: 4em;
+  margin-bottom: 30px;
+  line-height: normal;
+}
+
+.home-section {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.page-container {
+  margin-left: 160px;
+  height: 100%;
+}
+
+.page-section {
+  padding: 10px;
+  background-color: #f1f1f1;
+  /* Curves the corners of the container */
+  border-radius: .25rem;
+  /* Adds a shadow around the container */
+  box-shadow: 0 10px 20px rgba(71, 69, 69, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border: 1px solid rgb(175, 170, 170);
+  /* Creates a scrollbar on the container when the window size is reduced */
+  height: 500px;
+  overflow-y: auto;
+}
+
+
+.container {
+  padding-top: 40px;
+}
+
+.main-section {
+  width: 100%;
+  height: 100%;
+}
+
+.section-background {
+  background-color: #DEC9E9;
+
+}
+
+/* Sets the gradient background color for the home page */
+.home-background {
+  /* background-image: linear-gradient(to top, #3C096C, #C77DFF); */
+  background-color: #DEC9E9;
+}
+
+/* media screens */
+
+/* Decrease font size when screen in 685px or smaller */
+@media screen and (max-width: 685px) {
+  .heading-font {
+    font-size: 3em;
+  }
+  .page-section {
+    /* The sections can take up more height when the screen size is reduced since the width is narrower, so the height is needed */
+    height: 800px;
+  }
+}
+
+@media screen and (min-width: 686px) {
+  .page-section {
+    /* The section height should be smaller when there is more width on the screen */
+    min-height: 500px;
+  }
 }
 
 /* When the screen is smaller, the top contact info moves horizontal to vertical */
-
 @media screen and (max-width: 1109px) {
   .header-contact-info {
     /* Spaces the contact icons and text in rows */
@@ -39,154 +174,4 @@ body {
   .h2 {
     font-size: .2rem;
   }
-}
-
-a {
-  /*makes the cursor a hand when hovering over a link*/
-  cursor: pointer;
-  color: white;
-}
-
-h2 {
-  font-family: "Roboto";
-  color: #5c27d8;
-}
-
-.nav-container {
-  position: fixed;
-  height: 100%;
-}
-
-/* Remove the bullet points from lists */
-.nav-list {
-  padding: 0;
-  list-style-type: none;
-}
-
-.no-bullets {
-  list-style-type: none;
-}
-
-.heading-font {
-  /* ADD CSS HERE */
-  color: white;
-  font-family: "Montserrat";
-  font-size: 4em;
-  margin-bottom: 30px;
-  line-height: normal;
-
-}
-
-.material-icons {
-  /* This allows the icons to line up with the text */
-  vertical-align: middle;
-  margin-left: 6px;
-  margin-right: 6px;
-}
-
-/* Decrease font size when screen in 685px or smaller */
-
-@media screen and (max-width: 685px) {
-  .heading-font {
-    font-size: 3em;
-  }
-  .page-section {
-    /* The sections can take up more height when the screen size is reduced since the width is narrower, so the height is needed */
-    height: 800px;
-  }
-}
-
-/* The side navigation menu */
-.sidenav {
-  height: 100%;
-  /* Set the width of the sidebar */
-  width: 160px;
-  /* Fixed Sidebar (stay in place on scroll) */
-  position: fixed;
-  background-color: rgb(141, 87, 240);
-  overflow-x: hidden;
-  padding-top: 106px;
-}
-
-/* The navigation menu links */
-
-.sidenav a {
-  font-size: 18px;
-  color: #f0efef;
-  font-family: "Poppins";
-}
-
-/* When you mouse over the navigation links, change their color */
-.nav-item a:hover {
-  color: #53a3ff;
-}
-
-/* The container for the Linked-In and Github links */
-.social-links {
-  font-size: 4em;
-  display: flex;
-  /* Puts the icons in the center of the page */
-  justify-content: center;
-}
-
-/* The icons themseleves for LinkedIn and Github*/
-.social-link-icons {
-  margin-left: .2em;
-  margin-right: .2em;
-  color: rgb(171 254 255);
-}
-
-.page-container {
-  margin-left: 160px;
-  height: 100%;
-}
-
-.page-section {
-  padding: 20px;
-  background-color: #f1f1f1;
-  /* Curves the corners of the container */
-  border-radius: .25rem;
-  /* Adds a shadow around the container */
-  box-shadow: 0 10px 20px rgba(71, 69, 69, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  border: 1px solid rgb(175, 170, 170);
-  /* Creates a scrollbar on the container when the window size is reduced */
-  height: 500px;
-  overflow-y: auto;
-}
-
-@media screen and (min-width: 686px) {
-  .page-section {
-    /* The section height should be smaller when there is more width on the screen */
-    min-height: 500px;
-  }
-}
-
-.home-section {
-  padding-top: 100px;
-  /* Center the home page font */
-  text-align: center;
-}
-
-.container {
-  padding-top: 100px;
-}
-
-.main-section {
-  width: 100%;
-  height: 100%;
-}
-
-/* The background color of the webpage sections */
-/* nth of type (even) or (odd) means every other element is applied this style, so we can alternate background colors */
-.section-background:nth-of-type(even) {
-  background-image: linear-gradient(#6830cf, #3cacec);
-}
-
-.section-background:nth-of-type(odd) {
-  background-image: linear-gradient(#3cacec, #6830cf);
-}
-
-/* Sets the gradient background color for the home page */
-.home-background {
-  background-image: linear-gradient(to top,#6830cf, #534ad6, #4f8deb, #3cacec);
 }

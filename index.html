@@ -2,23 +2,21 @@
 <html lang="en">
 
 <head>
-	<!-- Title is what shows up on tab bar -->
+	<!-- Basic Info -->
 	<title>Hang Cao</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Styling -->
 	<link href="style.css" rel="stylesheet" type="text/css">
-
-	<!-- Bootstrap, icons, and font imports -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	 crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌙</text></svg>">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -27,29 +25,16 @@
 	<div class="sidenav">
 		<!-- Create class nav-list to hold elements of navigation bar -->
 		<ul class="nav-list">
-			<!-- For each element in navigation bar, create a nav-item class that contains a nav-link class-->
-			<li class="nav-item">
-				<!-- Each nav-link class will contain an href to its respective html section-->
-				<a class="nav-link" href="#home">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#about-me">About Me</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#education">Education</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#experience">Experience</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#Projects">Projects</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#other">Other</a>
-			</li>
+			<!-- For each element in navigation bar, create a nav-item class that contains a nav-link class -->
+			<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
+			<li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+			<li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+			<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+			<li class="nav-item"><a class="nav-link" href="#vghc">vGHC 2020 Archive</a></li>
 		</ul>
 
-	</div>
+  </div>
 
 	<!-- A container for all of the content of the site (anything taking up the page aside from the nav) -->
 	<div class="page-container">
@@ -59,52 +44,20 @@
 
 			<!-- Contains the contact information in a header -->
 			<div class="header-contact-info">
-
-				<!-- Keeps the icon and text together as one unit; The code below creates an icon associated with an email address -->
-				<span>
-          <span class="material-icons">
-            email
-          </span>
-            hang.m.cao@gmail.com
-        </span>
-
-        <span>
-          <span class="material-icons">
-            call
-          </span>
-            (714) 406 - 6012
-        </span>
-
-        <span>
-          <span class="material-icons">
-            location_on
-          </span>
-            Irvine, CA
-        </span>
-
+        <a href="https://www.linkedin.com/in/hang-m-cao" class="fa fa-linkedin"></a>
+        <a href="https://github.com/hang-m-cao" class="fa fa-github"></a>
+        <a href= "mailto:hang.m.cao@gmail.com" class="fa fa-envelope"></a>
       </div>
 
-
-      <!-- Container is a Bootstrap class that will contain and auto-resize our content with the screen size -->
       <div class="container">
-        
-        <!-- Home section class will contain name, social media links, and github which are organized into classes below -->
         <div class="home-section">
           <div class="heading-font">
             Hang Cao
+            <span>
+              <img src="profile pic.jpg" alt="Profile Picture" style="float:left;width:250px;height:250px;margin-left: 100px">
+            </span>
           </div>
-
-          <h2 style="color: white;">CS @ UCI '24</h2>
-          <div class="social-links">
-            <a href="https://linkedin.com/in/hang-m-cao" rel="noopener noreferrer" target="_blank">
-              <em class="social-link-icons icon-linkedin"></em>
-            </a>
-
-            <a href="https://github.com/hang-m-cao" rel="noopener noreferrer" target="_blank">
-              <em class="social-link-icons icon-github"></em>
-            </a>
-          </div>
-        </div>
+          <h2 style="color: #10002B;">CS @ UCI '24</h2>
       </div>
     </section>
 
@@ -113,7 +66,6 @@
       <div class="container">
         <div class="page-section">
           <h2>About Me</h2>
-          <img src="profile pic.jpg" alt="Profile Picture" style="float:right;width:250px;height:250px;">
           <p>First paragraph goes here!</p>
 
           <p>This is another paragraph.</p>
@@ -127,14 +79,45 @@
       <div class="container">
         <div class="page-section">
           <h2>Education</h2>
-          <p>First paragraph goes here!</p>
+          <p>I go to UCI!</p>
 
-          <p>This is another paragraph.</p>
           <p></p>
         </div>
       </div>
     </section>
     
+    <section id="experience" class="main-section section-background">
+      <div class="container">
+        <div class="page-section">
+          <h2>Experience</h2>
+          <p>Technical experience goes here</p>
+
+          <p></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="main-section section-background">
+      <div class="container">
+        <div class="page-section">
+          <h2>Projects</h2>
+          <p>project examples</p>
+
+          <p></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="vGHC" class="main-section section-background">
+      <div class="container">
+        <div class="page-section">
+          <h2>VGHC Archive</h2>
+          <p>Technical experience goes here</p>
+
+          <p></p>
+        </div>
+      </div>
+    </section>
 
   </div>
 
