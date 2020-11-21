@@ -69,7 +69,6 @@ a {
 }
 
 .nav-item a:hover {
-<<<<<<< HEAD
   color: #10002B;
 }
 
@@ -83,9 +82,6 @@ img {
   max-width: 100%;
   height: auto;
   border: 10px solid #10002B;
-=======
-  color: rgb(171 254 255);
->>>>>>> 746e6f18bd5d6ce70bfa170757cfc131d7c0a00e
 }
 
 h2 {
@@ -141,7 +137,6 @@ h2 {
 
 /* Sets the gradient background color for the home page */
 .home-background {
-<<<<<<< HEAD
   /* background-image: linear-gradient(to top, #3C096C, #C77DFF); */
   background-color: #DEC9E9;
 }
@@ -180,7 +175,3 @@ h2 {
     font-size: .2rem;
   }
 }
-=======
-  background-image: linear-gradient(to top, #6830cf, #534ad6, #4f8deb, #3cacec);
-}
->>>>>>> 746e6f18bd5d6ce70bfa170757cfc131d7c0a00e
