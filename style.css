@@ -23,13 +23,14 @@ a {
   display: flex;
   padding-top: 20px;
   margin-left: 107px;
-  margin-right: 107px;
-  font-size: 2rem;
-  justify-content: flex-end;
+  margin-right: 30px;
+  font-size: 1.5rem;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 .fa {
-  font-size: 1.5rem !important;
   padding: 0.7rem;
   text-align: center;
   text-decoration: none;
@@ -80,8 +81,10 @@ a {
 img {
   border-radius: 50%;
   max-width: 100%;
-  height: auto;
-  border: 10px solid #10002B;
+  height: 250px;
+  float: left;
+  width: 250px;
+  margin-left: 100px
 }
 
 h2 {
