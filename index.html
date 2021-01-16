@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!-- Styling -->
-	<link href="main.css" rel="stylesheet" type="text/css">
+	<link href="index.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	 crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -26,39 +26,65 @@
 		<ul class="nav-list">
 			<!-- For each element in navigation bar, create a nav-item class that contains a nav-link class -->
 			<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-			<li class="nav-item"><a class="nav-link" href="about-me.html">About Me</a></li>
-			<li class="nav-item"><a class="nav-link" href="technical-portfolio.html">Technical Portfolio</a></li>
-			<li class="nav-item"><a class="nav-link" href="vGHC2020.html">vGHC 2020 Archive</a></li>
+			<li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
+			<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
 		</ul>
-
   </div>
 
 	<!-- A container for all of the content of the site (anything taking up the page aside from the nav) -->
 	<div class="page-container">
 
 		<!--Home page section -->
-		<section id="home" class="main-section home-background">
+		<section id="home" class="main-section">
 
 			<!-- Contains the contact information in a header -->
 			<div class="header-contact-info">
-        <a href="https://www.linkedin.com/in/hang-m-cao" class="fa fa-linkedin"></a>
-        <a href="https://github.com/hang-m-cao" class="fa fa-github"></a>
-        <a href= "mailto:hang.m.cao@gmail.com" class="fa fa-envelope"></a>
+        <a href="https://www.linkedin.com/in/hang-m-cao" title="LinkedIn" class="fa fa-linkedin"></a>
+        <a href="https://github.com/hang-m-cao" title="GitHub" class="fa fa-github"></a>
+        <a href="assets/resume.pdf" title="Resume" class="fa fa-file-text"></a>
+        <a href= "mailto:hang.m.cao@gmail.com" title="Email" class="fa fa-envelope"></a>
       </div>
 
+      <!-- Introduction section -->
       <div class="container">
         <div class="home-section">
-          <h2>Hello! I'm</h2>
-          <div class="heading-font">Hang Cao</div>
+          <h2>Hello! I'm Hang Cao</h2>
           <div>
-            <img src="img\profile pic.jpg" alt="Profile Picture">
+            <img src="img/profile pic.jpg" alt="Profile Picture">
           </div>
-          <h2>welcome to my website</h2>
+          <h2>Welcome to my website!</h2>
       </div>
     </section>
 
+    <!-- About me section -->
+    <section id="about-me" class="main-section">
+      <div class="container">
+        <div class="page-section">
+          <h2>About Me</h2>
+          <p>First paragraph goes here!</p>
+
+          <p>the more fun stuff</p>
+
+          <p></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project section -->
+    <section id="projects" class="main-section">
+      <div class="container">
+        <div class="page-section">
+          <h2>Projects</h2>
+          <p>project examples</p>
+
+          <p></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer at the bottom -->
     <footer class = "footer">
-      Copyright © 2020 Hang Cao
+      Made by Hang Cao
     </footer>
   </div>
 

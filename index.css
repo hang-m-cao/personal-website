@@ -18,6 +18,23 @@ body {
 a {
   color: #10002B;
 }
+
+
+/* heading styling */
+h2 {
+  font-family: "Raleway";
+  color: #10002B;
+  text-align: center;
+}
+
+.heading-font {
+  color: #10002B;
+  font-family: "Raleway";
+  font-size: 4em;
+  margin-bottom: 30px;
+  line-height: normal;
+}
+
 /* icon styling */
 .header-contact-info {
   display: flex;
@@ -34,50 +51,15 @@ a {
   padding: 0.7rem;
   text-align: center;
   text-decoration: none;
-  /* color: #10002B; */
-  color: #10002B
-}
-
-.fa:hover {
-  opacity: 0.7;
-  text-decoration: none;
-  /* color: #10002B; */
-  color: #10002B
-}
-
-/* navigation bar */
-.nav-container {
-  position: fixed;
-  height: 100%;
-}
-
-.nav-list {
-  padding: 0;
-  list-style-type: none;
-}
-
-.sidenav {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  background-color: #B185DB;
-  overflow-x: hidden;
-  padding-top: 106px;
-}
-
-.sidenav a {
-  font-size: 18px;
-  color: #ffffff;
-  font-family: "Raleway";
-}
-
-.nav-item a:hover {
   color: #10002B;
 }
 
-.no-bullets {
-  list-style-type: none;
+.fa:hover {
+  opacity: 0.5;
+  text-decoration: none;
+  color: #10002B;
 }
+
 
 /* profile image styling */
 img {
@@ -94,56 +76,60 @@ img {
   
 }
 
-h2 {
-  font-family: "Raleway";
-  color: #10002B;
-  text-align: center;
+/* navigation bar */
+.nav-container {
+  position: fixed;
+  height: 100%;
 }
 
-.heading-font {
-  color: #10002B;
-  font-family: "Raleway";
-  font-size: 4em;
-  margin-bottom: 30px;
-  line-height: normal;
+/* side bar nav for contents */
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  background-color: #B185DB;
+  overflow-x: hidden;
+  padding-top: 106px;
 }
 
-/* footer styling */
-.footer {
-  text-align: center; 
-  padding: 10px;
-  color:#10002B;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  background-color: #10002B;
-  color: #DEC9E9;
+.sidenav a:hover {
+  color: #10002B;
 }
+
+.nav-link {
+  color:#ffff;
+  font-size: 20px;
+}
+
+.nav-list {
+  padding: 0;
+  list-style-type: none;  
+}
+
+
+/* container for entire page */
+.page-container {
+  margin-left: 160px;
+  height: 100%;
+  background-color: #DEC9E9;
+}
+
 
 .home-section {
   padding-top: 50px;
   text-align: center;
-}
 
-.page-container {
-  margin-left: 160px;
-  height: 100%;
 }
 
 .page-section {
   padding: 10px;
   background-color: #f1f1f1;
-  /* Curves the corners of the container */
-  border-radius: .25rem;
-  /* Adds a shadow around the container */
-  box-shadow: 0 10px 20px rgba(71, 69, 69, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  border: 1px solid rgb(175, 170, 170);
-  /* Creates a scrollbar on the container when the window size is reduced */
+  border-radius: 1rem;
   height: 500px;
+  width: 1000px;
   overflow-y: auto;
+  margin-left: 20px;
 }
-
 
 .container {
   padding-top: 40px;
@@ -152,19 +138,21 @@ h2 {
 .main-section {
   width: 100%;
   height: 100%;
-}
-
-.section-background {
-  background-color: #DEC9E9;
-
-}
-
-/* Sets the gradient background color for the home page */
-.home-background {
-  /* background-image: linear-gradient(to top, #3C096C, #C77DFF); */
+  padding: 20px;
   background-color: #DEC9E9;
 }
 
+/* footer styling */
+.footer {
+  text-align: center; 
+  padding: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #10002B;
+  color: #DEC9E9;
+}
 
 /* media screens */
 
