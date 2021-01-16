@@ -25,6 +25,7 @@ h2 {
   font-family: "Raleway";
   color: #10002B;
   text-align: center;
+  padding-top: 10px;
 }
 
 .heading-font {
@@ -90,6 +91,7 @@ img {
   background-color: #B185DB;
   overflow-x: hidden;
   padding-top: 106px;
+  font-family: "Raleway";
 }
 
 .sidenav a:hover {
@@ -103,7 +105,7 @@ img {
 
 .nav-list {
   padding: 0;
-  list-style-type: none;  
+  list-style-type: none; 
 }
 
 
